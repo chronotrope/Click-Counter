@@ -13,6 +13,7 @@
 		457475F91AD241AA00716E7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 457475F81AD241AA00716E7E /* Images.xcassets */; };
 		457475FC1AD241AA00716E7E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 457475FA1AD241AA00716E7E /* LaunchScreen.xib */; };
 		457476081AD241AA00716E7E /* Click_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457476071AD241AA00716E7E /* Click_CounterTests.swift */; };
+		457476121AD24C2300716E7E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 457476111AD24C2300716E7E /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		457476011AD241AA00716E7E /* Click CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Click CounterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		457476061AD241AA00716E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		457476071AD241AA00716E7E /* Click_CounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Click_CounterTests.swift; sourceTree = "<group>"; };
+		457476111AD24C2300716E7E /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		457475E31AD241AA00716E7E = {
 			isa = PBXGroup;
 			children = (
+				457476111AD24C2300716E7E /* .gitignore */,
 				457475EE1AD241AA00716E7E /* Click Counter */,
 				457476041AD241AA00716E7E /* Click CounterTests */,
 				457475ED1AD241AA00716E7E /* Products */,
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				457476121AD24C2300716E7E /* .gitignore in Resources */,
 				457475F71AD241AA00716E7E /* Main.storyboard in Resources */,
 				457475FC1AD241AA00716E7E /* LaunchScreen.xib in Resources */,
 				457475F91AD241AA00716E7E /* Images.xcassets in Resources */,
@@ -405,6 +409,7 @@
 				4574760D1AD241AA00716E7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4574760E1AD241AA00716E7E /* Build configuration list for PBXNativeTarget "Click CounterTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				457476101AD241AA00716E7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
